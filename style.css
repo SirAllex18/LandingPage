@@ -1,0 +1,162 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.first-part{
+    background-color: #1F2937;
+}
+
+.Header-logo{
+    font-size: 24px;
+    color:#F9FAF8
+}
+
+.hero{
+    font-size:18px;
+    color: #E5E7EB;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-left,.nav-right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.second-header{
+    font-size:48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+.p-text{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.p-text2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.row-of-boxes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 3px blue;
+    padding: 60px;
+    border-radius: 20px;
+    border-style: solid;
+    width: 40px;
+
+}
+.subtext{
+    margin-left: 50px;
+    margin-bottom: 40px;
+
+}
+.third-part{
+    background-color: #E5E7EB;
+}
+.quote{
+    padding-top: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+.Thor{
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+}
+.last-part{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.blue-box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background-color: #3882F6;
+    border: 10px #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    border-style: solid;
+}
+
+button{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 250px;
+
+    
+}
+.last-p{
+    font-weight: bolder;
+}
+
+.last-pp{
+    font-size: 13px;
+}
+.last-p,.last-pp{
+    color: white;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937; 
+    height: 50px;
+}
+.footer-text{
+    color: white;
+
+}
